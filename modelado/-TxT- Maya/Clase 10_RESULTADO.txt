@@ -1,0 +1,43 @@
+CLASE 10
+LLAMAR LISTA.
+
+
+BOOLEANS  -->> 1. Edit NURBS > Booleans.
+	       2. Selecciono el primer objeto "ENTER".
+	       3. Selecciono el segundo objeto "ENTER".
+
+EXTRUDE  -->> 1. Dibujo las 2 curvas.
+	      2. selecciono 1 por 1.
+	      3. Surfaces > Extrude.
+
+BIRAIL  -->>  1. Surfaces > Birail 1 Tool.
+			*Dibujo las 3 Curvas.
+			*Surfaces > Birail 1 Tool.
+			*Selecciono la curva profile (ENTER).
+			*Selecciono las curvas rail (ENTER).
+	      2. Surfaces > Birail 2 Tool.
+			*Dibujo las 4 Curvas.
+			*Surfaces > Birail 2 Tool.
+			*Selecciono las curvas profile (ENTER).
+			*Selecciono las curvas rail (ENTER).
+	      3. Surfaces > Birail 3+ Tool.
+			*Dibujo las 5 o mas Curvas.
+			*Surfaces > Birail 3+ Tool.
+			*Selecciono las curvas profile (ENTER).
+			*Selecciono las curvas rail (ENTER).
+
+INTERSECT SURFACES  -->> 1. Selecciono las superficies que se estan interceptando.
+			 2. Edit NURBS > Intersect Surfaces.
+
+TRIM TOOL  -->> 1. Primero intercepto las superficies.
+		2. Selecciono la superficie.
+		3. Edit NURBS > Trim Tool.
+		4. Selecciono la parte de la geometria que deseo mantener.
+
+ROUND TOOL  -->> 1. Selecciono los isoparms en comun que tienen las superficies.
+		 2. Edit NURBS > Round Tool.
+
+
+--------------------------------------------------------
+TAREA  ---->>	*HACER EL CELULAR EN NURBS.
+		*TRAER LOS PLANOS DEL CARRO IMPORTADOS EN MAYA LISTOS PARA MODELAR.

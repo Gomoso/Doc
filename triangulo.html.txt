@@ -1,0 +1,31 @@
+//CREAR LAS GEOMETRÍAS
+                var geoTriangulo = new THREE.Geometry();
+                //Vertices  
+                var v0 = new THREE.Vector3( 0.0, 0.0 , 0.0);
+                var v1 = new THREE.Vector3( 2.0, 0.0 , 0.0);
+                var v2 = new THREE.Vector3( 2.0, 0.0 , 2.0);
+                var v3 = new THREE.Vector3( 0.0, 0.0 , 2.0);
+                var v4 = new THREE.Vector3( 1.0, 2.0 , 1.0);
+                geoTriangulo.vertices.push( v0 );
+                geoTriangulo.vertices.push( v1 );
+                geoTriangulo.vertices.push( v2 );
+                geoTriangulo.vertices.push( v3 );
+                geoTriangulo.vertices.push( v4 );
+
+                //caras
+                geoTriangulo.faces.push(new THREE.Face3(0,4,1));
+                geoTriangulo.faces.push(new THREE.Face3(1,4,2));
+                geoTriangulo.faces.push(new THREE.Face3(2,4,3));
+                geoTriangulo.faces.push(new THREE.Face3(3,4,0));
+                geoTriangulo.faces.push(new THREE.Face3(0,1,2));
+                geoTriangulo.faces.push(new THREE.Face3(0,2,3));
+                geoTriangulo.computeFaceNormals();
+
+                //materiales creacion del objeto
+                var matPlano = new THREE.MeshBasicMaterial();
+                var triangulo = new THREE.Mesh (geoTriangulo, matPlano);
+
+                ///pIRAMIDE
+
+                //AGREGAR A LA ESCENA
+                scene.add(triangulo);

@@ -1,0 +1,38 @@
+CLASE 12
+LLAMAR LISTA.
+
+Arc Tool  -->>	1. Create > Arc Tool.
+		NOTA. Sirve para hacer curvas de angulos.
+
+Boundary  -->>	1. Dibujo las curvas que deseo que generen mi superficie.
+		2. Selecciono las curvas en orden.
+		3. Surfaces > Boundary.
+		NOTA. Super util para hacer esquinas dificiles.
+
+Surface Fillet  -->> *.Circular Fillet.
+			1. Selecciono las superficies que se estan interceptando.
+			2. Edit Nurbs > Surface Fillet > Circular Fillet.
+			3. En el historial de creacion se dan los valores que debe utilizar.
+			NOTA. De ser necesario despues se debe hacer trim tool.
+		     *.Freeform Fillet.
+			1. Selecciono 2 isoparms en las superficies que se interceptan.
+			2. Edit Nurbs > Surface Fillet > Freeform Fillet.
+		     *.Fillet Blend Tool.
+		     	1. Teniendo las superficies con agujeros.
+			2. Edit Nurbs > Surface Fillet > Fillet Blend Tool.
+			3. Selecciono el primer borde, (ENTER).
+			4. Selecciono el segundo borde, (ENTER).
+			NOTA. Asi se unen los Agujeros del Trim Tool.
+
+
+MODO COMPONENTES  -->> Trim Edges// Permite hacer loft entre los isoparms que crea el trim tool.
+
+Stitch  -->> *.Stitch Edges Tool.
+		1. Edit Nurbs > Stitch > Stitch Edges Tool.
+		2. Selecciono los bordes del agujero creado por un (trim).
+		NOTA. No necesariamente debe ser un trim, pueden ser 2 isoparms cerrados.
+	     *.Global Stitch.
+		1. Selecciono las superficies.
+		2. Edit Nurbs > Stitch > Global Stitch.
+		NOTA. Esto elimina las separaciones entre los parches.
+

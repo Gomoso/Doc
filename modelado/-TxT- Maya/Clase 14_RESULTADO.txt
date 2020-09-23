@@ -1,0 +1,46 @@
+CLASE 14
+LLAMAR LISTA.
+
+
+SUBDIVISION SURFACES
+Advantages of subdivision surfaces
+    * Subdivision surfaces allow higher level control over shape than polygons.
+    * They allow you to only use complex geometry in the complex regions of your model.
+    * They allow creases (sharp edges) and arbitrary topology (not just four-sided sheets).
+    * The continuity of subdivision surfaces eliminates many of the problems that can occur at seams when you animate NURBS surfaces.
+    * You can bind subdivision surfaces to skeletons at a coarse level and the effects will translate smoothly to the finer levels.
+
+Crear una subdivision surface.
+	Create > Subdiv primitives.
+
+Otra forma de hacerlo es convirtiendo una geometria base. 
+	Modify > Convert > Poligons to Subdiv.
+	Modify > Convert > NURBS to Subdiv.
+
+Manejo Modo Poly.
+	1. En Modo poly > componentes > Face.
+	2. Manipulo con las herramientas de Polys.
+	
+Manejo de resolucion.
+	1. En Modo componentes > Face.
+	2. Selecciono la cara que deseo refinar.
+	3. Modo componentes > Refine selected.
+
+Para ver los diferentes niveles de resolucion.
+	1. En Modo Componentes > Face.
+	2. Para ver los de mayor resolucion.
+		Modo componentes > Display Finer.
+	3. Para ver los de menor resolucion.
+		Modo componentes > Display Coarser.
+
+
+--------------------------------------------------------
+TAREA  ---->>	*HACER UN ENVASE.
+
+
+HERRAMIENTAS DE SCULPT
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::: PDFS DE MODELING AND THE HEMA :::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

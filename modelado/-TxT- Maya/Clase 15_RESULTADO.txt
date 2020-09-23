@@ -1,0 +1,30 @@
+CLASE 14
+LLAMAR LISTA.
+
+
+ACTIVACION DEL PLUG-IN DE MENTAL-RAY.
+	Window > Settings/Preferences > Plug-in Manager > Mayatomr.mll.
+SELECCIÓN DEL MOTOR DE RENDER.
+	1. Window > Rendering Editors > Render Settings.
+	2. Render Using > Maya Software / Maya Hardware / Mental Ray.
+SETUP DE LOS ATRIBUTOS DEL MOTOR DE RENDER.
+	1. Formato de imagen.
+	2. Tamaño de la imagen.
+	3. Calidad del Render.
+CREACION DE FUENTES DE LUZ.
+	1. Utilizando Maya Software.
+		Creación de Spot Light y de Directional Light.
+	2. Utilizando Mental Ray.
+		*. Ir a los Settings de Mental Ray y activar el Final Gathering.
+		*. Creación y Asignación de materiales que emanen luz (Color Ambiental e Incandesencia Claros!!!).
+ASIGNACION DE MATERIALES.
+	1. Window > Rendering Editors > Hypershade.
+	2. Create > Materials.
+	3. Click Derecho > Asignar material a la selección. 
+REALIZACION DEL RENDER DE UNA IMAGEN FIJA.
+	Rendering > Render > Render Current Frame.
+
+
+
+--------------------------------------------------------
+TAREA  ---->>	*Hacer el Wallpaper del carro (1600*1200).
